@@ -88,5 +88,5 @@ class BinOp():
                 m_add = m_add.sum(1, keepdim=True).div(n).expand(s)
             m_add = m_add.mul(weight.sign())
             self.target_modules[index].grad.data = m.add(m_add).mul(1.0-1.0/s[1]).mul(n)
+            self.target_modules[index].grad.data = self.target_modules[index].grad.data.mul(1e+9)
             self.target_modules[index].grad.data = self.target_modules[index].grad.data.clamp(-5.0, 5.0)
-            # self.target_modules[index].grad.data = self.target_modules[index].grad.data.mul(1e+9)

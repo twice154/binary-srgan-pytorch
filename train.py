@@ -126,7 +126,9 @@ def validate(val_loader, val_size, model, logger, epoch, current_step):
         util.mkdir(img_dir)
 
         model.feed_data(val_data, volatile=True)
+        bin_op.binarization()
         model.val()
+        bin_op.restore()
 
         visuals = model.get_current_visuals()
 
