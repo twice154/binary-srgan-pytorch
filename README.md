@@ -1,6 +1,6 @@
 # binary-srgan-pytorch
 
-This repository contains the unoffical pyTorch implementation of <strong>SRGAN</strong> and also <strong>SRResNet</strong> in the paper <a href="https://arxiv.org/pdf/1812.06378.pdf">Efficient Super Resolution Using Binarized Neural Network</a>, CVPRW19. 
+This repository contains the unoffical pyTorch implementation of <strong>Binarized-SRGAN</strong> and also <strong>Binarized-SRResNet</strong> in the paper <a href="https://arxiv.org/pdf/1812.06378.pdf">Efficient Super Resolution Using Binarized Neural Network</a>, CVPRW19. 
 
 # License and Citation
 All code and other materials (including but not limited to the tables) are provided for research purposes only and without any warranty. Any commercial use requires our consent. If our work helps your research or you use any parts of the code in your research, please acknowledge it appropriately:
