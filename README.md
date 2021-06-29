@@ -42,17 +42,17 @@ All code and other materials (including but not limited to the tables) are provi
 <tbody>
 <tr>
 <td align="center">Set5</td>
-<td align="center">?? / ??</td>
+<td align="center">-- / --</td>
 <td align="center">30.13 / 0.853</td>
 </tr>
 <tr>
 <td align="center">Set14</td>
-<td align="center">?? / ??</td>
+<td align="center">-- / --</td>
 <td align="center">26.98 / 0.746</td>
 </tr>
 <tr>
 <td align="center">Urban100</td>
-<td align="center">?? / ??</td>
+<td align="center">-- / --</td>
 <td align="center">24.31 / 0.716</td>
 </tr>  
 </tbody></table>
@@ -70,17 +70,17 @@ All code and other materials (including but not limited to the tables) are provi
 <tbody>
 <tr>
 <td align="center">Set5</td>
-<td align="center">?? / ??</td>
+<td align="center">-- / --</td>
 <td align="center">30.34 / 0.864</td>
 </tr>
 <tr>
 <td align="center">Set14</td>
-<td align="center">?? / ??</td>
+<td align="center">-- / --</td>
 <td align="center">27.16 / 0.756</td>
 </tr>
 <tr>
 <td align="center">Urban100</td>
-<td align="center">?? / ??</td>
+<td align="center">-- / --</td>
 <td align="center">24.48 / 0.728</td>
 </tr>  
 </tbody></table>
