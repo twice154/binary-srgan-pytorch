@@ -29,69 +29,59 @@ All code and other materials (including but not limited to the tables) are provi
   howpublished = {\url{https://github.com/twhui/SRGAN-PyTorch}}
 }</code></pre>
 
-# Results of SRGAN in terms of PSNR and SSIM
+# Results of SRGAN in terms of PSNR and SSIM (4x Super-resolution)
 </ul>
 <table>
 <thead>
 <tr>
 <th align="center">Dataset</th>
 <th align="center">Our</th>
-<th align="center">CVPR17</th>
+<th align="center">CVPRW19</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td align="center">Set5</td>
-<td align="center">29.4490 / 0.8542</td>
-<td align="center">29.40 / 0.8472</td>
+<td align="center">?? / ??</td>
+<td align="center">30.13 / 0.853</td>
 </tr>
 <tr>
 <td align="center">Set14</td>
-<td align="center">26.0677 / 0.7153</td>
-<td align="center">26.02 / 0.7397</td>
-</tr>
-<tr>
-<td align="center">BSD100</td>
-<td align="center">24.8665 / 0.6594</td>
-<td align="center">25.16 / 0.6688</td>
+<td align="center">?? / ??</td>
+<td align="center">26.98 / 0.746</td>
 </tr>
 <tr>
 <td align="center">Urban100</td>
-<td align="center">23.9434 / 0.7277</td>
-<td align="center">-</td>
+<td align="center">?? / ??</td>
+<td align="center">24.31 / 0.716</td>
 </tr>  
 </tbody></table>
 
-# Results of SRResNet in terms of PSNR and SSIM
+# Results of SRResNet in terms of PSNR and SSIM (4x Super-resolution)
 </ul>
 <table>
 <thead>
 <tr>
 <th align="center">Dataset</th>
 <th align="center">Our</th>
-<th align="center">CVPR17</th>
+<th align="center">CVPRW19</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td align="center">Set5</td>
-<td align="center">31.9678 / 0.9007</td>
-<td align="center">32.05 / 0.9019</td>
+<td align="center">?? / ??</td>
+<td align="center">30.34 / 0.864</td>
 </tr>
 <tr>
 <td align="center">Set14</td>
-<td align="center">28.5809 / 0.7972</td>
-<td align="center">28.49 / 0.8184</td>
-</tr>
-<tr>
-<td align="center">BSD100</td>
-<td align="center">27.5784 / 0.7538</td>
-<td align="center">27.58 / 0.7620</td>
+<td align="center">?? / ??</td>
+<td align="center">27.16 / 0.756</td>
 </tr>
 <tr>
 <td align="center">Urban100</td>
-<td align="center">26.0479 / 0.7954</td>
-<td align="center">-</td>
+<td align="center">?? / ??</td>
+<td align="center">24.48 / 0.728</td>
 </tr>  
 </tbody></table>
 
