@@ -1,12 +1,17 @@
-# SRGAN-PyTorch
+# binary-srgan-pytorch
 
-This repository contains the unoffical pyTorch implementation of <strong>SRGAN</strong> and also <strong>SRResNet</strong> in the paper <a href="https://arxiv.org/abs/1609.04802">Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network</a>, CVPR17. 
-
-We closely followed the network structure, training strategy and training set as the orignal SRGAN and SRResNet. We also implemented <strong>subpixel convolution layer</strong> as <a href="https://arxiv.org/abs/1609.05158">Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network</a>, CVPR16. <a href="https://github.com/waihokwok">My collaborator</a> also shares contribution to this repository.
+This repository contains the unoffical pyTorch implementation of <strong>SRGAN</strong> and also <strong>SRResNet</strong> in the paper <a href="https://arxiv.org/pdf/1812.06378.pdf">Efficient Super Resolution Using Binarized Neural Network</a>, CVPRW19. 
 
 # License and Citation
 All code and other materials (including but not limited to the tables) are provided for research purposes only and without any warranty. Any commercial use requires our consent. If our work helps your research or you use any parts of the code in your research, please acknowledge it appropriately:
 
+<pre><code>@InProceedings{ma19,    
+ author = {Yinglan Ma and Hongyu Xiong and Zhe Hu and Lizhuang Ma},    
+ title  = {Efficient Super Resolution Using Binarized Neural Network},    
+ booktitle  = {Proceedings of IEEE Conference on Computer Vision and Pattern Recognition Workshop (CVPRW)},    
+ year = {2019}}
+ </code></pre>
+ 
 <pre><code>@InProceedings{ledigsrgan17,    
  author = {Christian Ledig and Lucas Theis and Ferenc Husz&aacuter and Jose Caballero and Andrew Cunningham and Alejandro Acosta and Andrew Aitken and Alykhan Tejani and Johannes Totz and Zehan Wang and Wenzhe Shi},    
  title  = {Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network},    
@@ -106,6 +111,3 @@ We used a subset of Imagenet dataset ILSVRC2016_CLS-LOC.tar.gz for training our 
 
 The upsampled images will be generated in <code>/home/twhui/Projects/SRGAN/results/MODEL_NAME/test_images</code>. 
 A text file that contains PSNR and SSIM results will be generated in <code>/home/twhui/Projects/SRGAN/results/MODEL_NAME/log</code>. MODEL_NAME = SRResNet_x4 or SRGAN_x4.
-
-# Trained models
-The trained models (16 residual blocks) of <a href="https://drive.google.com/file/d/1BRRfis9HEWccJJsIEgPg0Ou3zV-3gVq5/view">SRResNet</a> and <a href="https://drive.google.com/file/d/1vAtPLGbdyt--SZQxUl0YKPRQgu6-kR6v/view">SRGAN</a> are available.
