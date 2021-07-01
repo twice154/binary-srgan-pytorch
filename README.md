@@ -35,7 +35,7 @@ All code and other materials (including but not limited to the tables) are provi
 <thead>
 <tr>
 <th align="center">Dataset</th>
-<th align="center">Our</th>
+<th align="center">Ours</th>
 <th align="center">CVPRW19</th>
 </tr>
 </thead>
@@ -63,14 +63,14 @@ All code and other materials (including but not limited to the tables) are provi
 <thead>
 <tr>
 <th align="center">Dataset</th>
-<th align="center">Our</th>
+<th align="center">Ours</th>
 <th align="center">CVPRW19</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td align="center">Set5</td>
-<td align="center">-- / --</td>
+<td align="center">29.89 / 0.853</td>
 <td align="center">30.34 / 0.864</td>
 </tr>
 <tr>
