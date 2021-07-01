@@ -70,7 +70,7 @@ All code and other materials (including but not limited to the tables) are provi
 <tbody>
 <tr>
 <td align="center">Set5</td>
-<td align="center">29.89 / 0.853</td>
+<td align="center">29.89(-0.45) / 0.853(-0.011)</td>
 <td align="center">30.34 / 0.864</td>
 </tr>
 <tr>
